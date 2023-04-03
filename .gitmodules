@@ -1,3 +1,7 @@
 [submodule "dsdl"]
 	path = dsdl
-	url = https://github.com/UAVCAN/dsdl
+	# Main repo does not have the commit we want anymore
+	# We need to use a fork that does
+	# This seems to be a problem only with Ubuntu 16
+	#url = https://github.com/UAVCAN/dsdl
+	url = https://github.com/PX4/public_regulated_data_types
